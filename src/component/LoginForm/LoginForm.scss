@@ -1,0 +1,60 @@
+$base-color: #c4c4c4;
+
+.MuiFormLabel-root.login-label {
+  color: #808191;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  display: block;
+  top: -5px;
+  span {
+    color: red;
+    font-size: 14px;
+  }
+}
+.MuiFormLabel-root.Mui-focused {
+  color: #6c5ecf !important;
+}
+.login-input .MuiInputBase-input {
+  background-color: rgba($base-color, 0.05);
+  // border-color: rgba($base-color, 0.05);
+  color: #808191;
+  padding: 1.6rem 2.6rem;
+}
+.MuiFormControl-root {
+  margin-bottom: 3rem !important;
+}
+.MuiFormControlLabel-root {
+  font-size: 2rem;
+}
+.login-checkbox .MuiIconButton-root {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.login-checkbox .MuiSvgIcon-root {
+  width: 2.8rem;
+  height: 2.8rem;
+}
+.login-checkbox .MuiFormControlLabel-label {
+  font-size: 16px;
+  color: #cfcfcf;
+  font-weight: 700;
+}
+.forgot-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.MuiTypography-colorPrimary.link-base {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6c5ecf;
+}
+.login-right .sign-up-text {
+  margin-top: 2.4rem;
+  font-weight: bold;
+  font-size: 14px;
+  color: #cfcfcf;
+  margin-bottom: 0;
+}

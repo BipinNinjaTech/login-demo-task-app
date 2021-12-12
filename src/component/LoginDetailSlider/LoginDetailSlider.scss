@@ -1,0 +1,58 @@
+$base-color: #cfcfcf;
+.slider {
+  text-align: center;
+  color: $base-color;
+  h2 {
+    font-size: 2.4rem;
+    margin-bottom: 1.6rem;
+  }
+  p {
+    opacity: 0.4;
+    font-size: 16px;
+  }
+}
+.slick-dots {
+  text-align: center;
+  list-style-type: none;
+  margin-top: 4rem;
+  @media screen and (max-width: 1400px) {
+    margin-top: 3rem;
+  }
+  li {
+    display: inline-block;
+  }
+  button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: auto;
+    height: auto;
+    padding: 4px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+    &:before {
+      content: "";
+      width: 4px;
+      height: 4px;
+      background: #3479d5;
+      opacity: 0.2;
+      display: block;
+      margin: 0 auto;
+      border-radius: 4px;
+      transition: 0.3s all;
+    }
+  }
+  .slick-active {
+    button:before {
+      width: 12px;
+      opacity: 1;
+    }
+  }
+}
+.slick-slide img {
+  max-width: 100%;
+  margin: 0 auto;
+}
